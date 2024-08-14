@@ -1,4 +1,4 @@
-# NUS CS5284 Graph Machine Learning course, Sem 1 2024/25
+# NUS CS5284 Graph Machine Learning, Sem 1 2024/25
 
 ## Xavier Bresson
 
