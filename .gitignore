@@ -2,4 +2,5 @@
 **/*.ipynb_checkpoints
 **/checkpoint
 **/tmp
+**/__pycache__/
 
