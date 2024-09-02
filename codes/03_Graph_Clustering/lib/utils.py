@@ -648,7 +648,7 @@ def compute_kernel_kmeans_EM(nc,Ker,Theta,nb_trials):
 
 ######################################
 # Usages: 
-#   [C_kmeans,En_kmeans] = compute_kernel_kmeans_spectral(K,Ker,Theta,nb_trials)
+#   [C_kmeans,En_kmeans] = compute_kernel_kmeans_spectral(K,Ker,Theta)
 #
 # Notations:
 #   n = nb_data
@@ -657,14 +657,13 @@ def compute_kernel_kmeans_EM(nc,Ker,Theta,nb_trials):
 #   K = nb_clusters
 #   Ker = Kernel matrix. Size = n x n.
 #   Theta = Weight for each data term. Size = n x 1.
-#   nb_trials = Number of standard kmeans runs.
 #
 # Output variables:
 #   C_kmeans = Computed kmeans clusters. Size = n x 1.
 #   En_kmeans = Energy of the kmeans partition.
 ######################################
 
-def compute_kernel_kmeans_spectral(nc,Ker,Theta,nb_trials):
+def compute_kernel_kmeans_spectral(nc,Ker,Theta):
 
 
     start = time.time()
