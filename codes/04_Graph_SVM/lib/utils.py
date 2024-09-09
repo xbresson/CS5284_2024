@@ -323,7 +323,7 @@ def compute_ncut(W, Cgt, R):
 ######################################
 
 def construct_knn_graph(X,k,dist):
-    
+
     n = X.shape[0]    
     
     ######################################
