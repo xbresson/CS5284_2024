@@ -123,6 +123,7 @@ Select the notebook 'file.ipynb' and open it with Google Colab using Control Cli
    # Install python libraries
    conda env create -f environment_win64.yml
    conda activate gnn_course
+   pip install --upgrade --force-reinstall scikit-learn==1.3.2 
 
    # Run the notebooks in Chrome
    jupyter notebook
