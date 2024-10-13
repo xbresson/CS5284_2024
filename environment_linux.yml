@@ -25,7 +25,7 @@ dependencies:
   - pymetis=2023.1
   - python-louvain=0.16
   # molecule
-  - rdkit=2024.03.5
+  - rdkit=2023.09.6
   # deep learning
   - pytorch=2.1.2 # DL
   - torchvision=0.16 # CV 
