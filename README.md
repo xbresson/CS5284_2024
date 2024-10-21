@@ -28,8 +28,7 @@ Select the notebook 'file.ipynb' and open it with Google Colab using Control Cli
 
 ```sh
    # Conda installation
-   curl https://repo.continuum.io/miniconda/Miniconda3-latest-Linux-x86_64.sh -o miniconda.sh -J -L -k # Linux
-   curl https://repo.continuum.io/miniconda/Miniconda3-latest-MacOSX-x86_64.sh -o miniconda.sh -J -L -k # OSX
+   curl https://repo.continuum.io/miniconda/Miniconda3-latest-MacOSX-arm64.sh -o miniconda.sh -J -L -k # OSX M
    chmod +x miniconda.sh
    ./miniconda.sh
    source ~/.bashrc
@@ -55,8 +54,7 @@ Select the notebook 'file.ipynb' and open it with Google Colab using Control Cli
 
 ```sh
    # Conda installation
-   curl https://repo.continuum.io/miniconda/Miniconda3-latest-Linux-x86_64.sh -o miniconda.sh -J -L -k # Linux
-   curl https://repo.continuum.io/miniconda/Miniconda3-latest-MacOSX-x86_64.sh -o miniconda.sh -J -L -k # OSX
+   curl https://repo.continuum.io/miniconda/Miniconda3-latest-MacOSX-x86_64.sh -o miniconda.sh -J -L -k # OSX Intel
    chmod +x miniconda.sh
    ./miniconda.sh
    source ~/.bashrc
@@ -83,7 +81,6 @@ Select the notebook 'file.ipynb' and open it with Google Colab using Control Cli
 ```sh
    # Conda installation
    curl https://repo.continuum.io/miniconda/Miniconda3-latest-Linux-x86_64.sh -o miniconda.sh -J -L -k # Linux
-   curl https://repo.continuum.io/miniconda/Miniconda3-latest-MacOSX-x86_64.sh -o miniconda.sh -J -L -k # OSX
    chmod +x miniconda.sh
    ./miniconda.sh
    source ~/.bashrc
